@@ -1,0 +1,14 @@
+# Firebase config file (do not push this)
+firebase-config.js
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Node modules (for future use)
+node_modules/
