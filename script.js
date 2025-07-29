@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
   const firebaseConfig = {
-    apiKey: "AIzaSyBNpdJ5Vf4633Qts6W3Hz8c7b-Fk3UMFfs",
-    authDomain: "jns-chatz.firebaseapp.com",
-    databaseURL: "https://jns-chatz-default-rtdb.asia-southeast1.firebasedatabase.app/",
-    projectId: "jns-chatz",
-    storageBucket: "jns-chatz.firebasestorage.app",
-    messagingSenderId: "54496838912",
-    appId: "1:54496838912:web:2edde1fec5d42dbc4c1fe5"
-  };
+  apiKey: "YOUR_ACTUAL_API_KEY",
+  authDomain: "your-app-id.firebaseapp.com",
+  databaseURL: "https://your-app-id-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "your-app-id",
+  storageBucket: "your-app-id.appspot.com",
+  messagingSenderId: "XXXXXXX",
+  appId: "X:XXXXXXX:web:XXXXXX"
+};
 
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
